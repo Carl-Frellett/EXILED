@@ -6,6 +6,9 @@
     <a href="https://discord.gg/PyUkWTg">Discord</a>
     for support.
   <p></p>
+<div align="center">
+    This was created because of some issues with NWAPI, which used Exiled's bootstrap before version 5
+  <p></p>
 </div> 
 
 <div align="center">
