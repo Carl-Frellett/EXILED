@@ -19,8 +19,7 @@ EXILED是一个用于SCP: 秘密实验室服务器的高级插件框架。 它�
 
 
 # 安装方法
-EXILED的安装十分简单。因为是用NW插件API来将自身载入，你会在发行版（Releases）中的``Exiled.tar.gz``解压后看到两个文件夹。``SCP Secret Laboratory``文件夹中包含了加载``EXILED``框架所需的文件。
-综上所述，你所需要做的也就是把这两个文件夹放到该放的地方，具体步骤将会在下面阐述。
+EXILED的安装十分简单，你只需要从原[EXILED](https://github.com/ExMod-Team/EXILED/releases)内下载最新版本的**`Exiled.tar.gz`**，解压后，再从本储存库内下载对应版本的三个文件(**`Exiled.API`**,**`Exiled.Loader`**,**`Assembly-CSharp.dll`**)，然后解压**`Exiled.tar.gz`**，打开解压出的文件夹内的**`Exiled`**文件夹，将**`Exiled.Loader`**放进去，然后打开/Exiled/Plugins/dependencies将**`Exiled.API`**替换，之后双击你服务端的**`appdata.bat`**，在进入的文件夹内的导航栏内点击**`Roaming`**，将**`Exiled`**文件夹拖入(注意，另外一个文件夹是不需要的)。一切就绪后，打开你服务端的本地文件，再打开位于SCPSL_Data/Managed将**`Assembly-CSharp.dll`**拖入，即可启动服务器了！
 
 如果你选择使用一键安装器，在运行正常的情况下它会帮你安装好所有EXILED的功能。
 
@@ -143,4 +142,4 @@ EXILED框架支持在不重启服务器的情况下动态重新载入插件程�
 
 不是所有的插件都必须支持动态更新。如果你不打算支持动态更新，这也完全没有问题，只是需要注意不要在更新插件后改变程序集的名字，并让服主知道他会需要重启服务器来更新你的插件。
 
-文字记录：Misaka_ZeroTwo
+文字记录：Misaka_ZeroTwo,Carl Frellett
