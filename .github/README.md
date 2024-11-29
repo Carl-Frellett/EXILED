@@ -45,7 +45,7 @@ Localized READMEs
   <div>
     <img src="https://flagsapi.com/CN/flat/64.png" height=30>
     <br>
-    <a href="documentation/localization/README-中文.md">中文</a> <---我只更新的中文的教程
+    <a href="documentation/localization/README-中文.md">               中文</a> <---我只更新的中文的教程
   </div>
   <br>
   <div>
