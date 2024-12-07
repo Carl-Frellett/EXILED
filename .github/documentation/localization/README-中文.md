@@ -22,7 +22,7 @@ EXILED是一个用于SCP: 秘密实验室服务器的高级插件框架。 它�
   - 下载 **[Exiled (Bootsharp)](https://github.com/Carl-Frellett/EXILED/releases)**
   - 使用 [7Zip](https://www.7-zip.org/) 或 [WinRar](https://www.win-rar.com/download.html?&L=6) 解压里面的内容
   - 移动 **``EXILED``** 文件夹到 **`%appdata%`** （*备注: 这个文件夹需要放在 ``C:\用户\%UserName%\AppData\Roaming``， 而 ***不是*** ``C:\用户\%UserName%\AppData\Roaming\SCP Secret Laboratory``， 而且它 **必须** 在 (...)\AppData\Roaming， 而不是 (...)\AppData\!*）
-  - 移动 **``Assembly-CSharp.dll``** 文件夹到 **`服务端根目录\SCPSL_Data\Managed`** 中。
+  - 移动并替换 **``Assembly-CSharp.dll``** 文件夹到 **`服务端根目录\SCPSL_Data\Managed`** 中。
   - 按 Win + R 并输入 `%appdata%` 可快捷打开AppData文件夹。
 
 # 安装插件
