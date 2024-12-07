@@ -19,7 +19,7 @@ EXILED是一个用于SCP: 秘密实验室服务器的高级插件框架。 它�
 
 
 # 安装方法
-EXILED的安装十分简单，你只需要从原[EXILED](https://github.com/ExMod-Team/EXILED/releases)内下载最新版本的**`Exiled.tar.gz`**，解压后，再从本储存库内下载对应版本的三个文件(**`Exiled.API`**,**`Exiled.Loader`**,**`Assembly-CSharp.dll`**)，然后解压**`Exiled.tar.gz`**，打开解压出的文件夹内的**`Exiled`**文件夹，将**`Exiled.Loader`**放进去，然后打开/Exiled/Plugins/dependencies将**`Exiled.API`**替换，之后双击你服务端的**`appdata.bat`**，在进入的文件夹内的导航栏内点击**`Roaming`**，将**`Exiled`**文件夹拖入(注意，另外一个文件夹是不需要的)。一切就绪后，打开你服务端的本地文件，再打开位于SCPSL_Data/Managed将**`Assembly-CSharp.dll`**拖入，即可启动服务器了！
+独立引导的Exiled安装十分简单！首先您需要从最新的[发布页](https://github.com/Carl-Frellett/EXILED/releases)下载我提供的独立引导Exiled的压缩包。之后，解压它并将"EXILED"放入"Users"\AppData\Roaming内(注意：你需要删除原先的Exiled)，然后，再将"Assembly-CSharp.dll"放入"服务端根目录"\SCPSL_Data\Managed内(注意：需替换原先的)，一切就绪后，便可以启动服务器了！
 
 # Windows
 ### 全自动安装 ([更多消息](https://github.com/ExMod-Team/EXILED/blob/master/Exiled.Installer/README.md))
