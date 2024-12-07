@@ -24,7 +24,7 @@ EXILED是一个用于SCP: 秘密实验室服务器的高级插件框架。 它�
   - 移动 **``EXILED``** 文件夹到 **`%appdata%`** （*备注: 这个文件夹需要放在 ``C:\用户\%UserName%\AppData\Roaming``， 而 ***不是*** ``C:\用户\%UserName%\AppData\Roaming\SCP Secret Laboratory``， 而且它 **必须** 在 (...)\AppData\Roaming， 而不是 (...)\AppData\!*）
   - 移动 **``Assembly-CSharp.dll``** 文件夹到 **`服务端根目录\SCPSL_Data\Managed`** 中。
   - 按 Win + R 并输入 `%appdata%` 可快捷打开AppData文件夹。
-  - 
+
 # 安装插件
 现在EXILED已经安装好了，并会在下次你启动你的服务器时随之启动。请注意EXILED本身基本不会做出任何事情，所以来 **[我们的Discord服务器](https://discord.gg/PyUkWTg)** 获取最新的插件吧。
 - 想要安装插件，只需要:
