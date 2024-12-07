@@ -7,7 +7,7 @@
     for support.
   <p></p>
 <div align="center">
-    This was created because of some issues with NWAPI, which used Exiled's bootstrap before version 5
+    The branch was created to prevent potential issues with NWAPI in the future. It revives the “standalone bootstrap” method that was used prior to version 5 of Exiled
   <p></p>
 </div> 
 
