@@ -24,26 +24,7 @@ EXILED是一个用于SCP: 秘密实验室服务器的高级插件框架。 它�
   - 移动 **``EXILED``** 文件夹到 **`%appdata%`** （*备注: 这个文件夹需要放在 ``C:\用户\%UserName%\AppData\Roaming``， 而 ***不是*** ``C:\用户\%UserName%\AppData\Roaming\SCP Secret Laboratory``， 而且它 **必须** 在 (...)\AppData\Roaming， 而不是 (...)\AppData\!*）
   - 移动 **``Assembly-CSharp.dll``** 文件夹到 **`服务端根目录\SCPSL_Data\Managed`** 中。
   - 按 Win + R 并输入 `%appdata%` 可快捷打开AppData文件夹。
-
-
-# Linux
-### 全自动安装 ([更多信息](https://github.com/ExMod-Team/EXILED/blob/master/Exiled.Installer/README.md))
-
-**备注:** 如果你正在一个远程服务器上安装EXILED，请确保你运行的.exe的用户和你运行SCP:SL服务器的一致
-
-  - 下载 [Exiled.Installer-Linux](https://github.com/ExMod-Team/EXILED/releases) (点击 Assets -> 下载安装包)
-  - 输入 **`./Exiled.Installer-Linux --path /path/to/server`** 来安装，或者是直接把它放到服务器文件夹里， 首先在控制台（终端）中使用 (`cd`)指令移动安装器，之后再输入: **`./Exiled.Installer-Linux`运行安装程序。.
-  - 如果你想要最新的预更新， 只需添加 **`--pre-releases`**. 例子: **`./Exiled.Installer-Linux /home/scp/server --pre-releases`**
-  - 另一个例子， 如果你把 `Exiled.Installer-Linux` 放到了你服务器的文件夹中，你还可以这样操作: **`/home/scp/server/Exiled.Installer-Linux --pre-releases`**
-  - 获取以及安装插件，请参考下面的[安装插件](#installing-plugins-1)部分。
-
-### 手动安装
-  - 首先**确保**你登录的是用于运行SCP服务器的用户。
-  - 下载 [Exiled.tar.gz](https://github.com/ExMod-Team/EXILED/releases) (SSH: 右键获取 `Exiled.tar.gz` 的链接， 然后输入: **`wget (下载链接)`**)
-  - 解压到你目前的文件夹，输入 **``tar -xzvf EXILED.tar.gz``**
-  - 移动 **`EXILED`** 文件夹到 **``~/.config``**中。 *备注: EXILED文件夹应该放到 ``~/.config``， 而 ***不是*** ``~/.config/SCP Secret Laboratory``* (SSH指令例子: **`mv EXILED ~/.config/`**)
-  - 移动 **``SCP Secret Laboratory``** 文件到 **``~/.config``** (SSH指令例子: **`mv SCP Secret Laboratory ~/.config/`**).
-
+  - 
 # 安装插件
 现在EXILED已经安装好了，并会在下次你启动你的服务器时随之启动。请注意EXILED本身基本不会做出任何事情，所以来 **[我们的Discord服务器](https://discord.gg/PyUkWTg)** 获取最新的插件吧。
 - 想要安装插件，只需要:
